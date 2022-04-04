@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AIotJDpc39IhmZmeaMzKKSEoxQYatBHvkBcytf27I2cDg9oT3cOyG3j9sV4k0gxlyf5q2JZDQsgNtHBKZ693ZA==",
+  "dgSpecHash": "73CyBZYiC3rNzZFyVj/3h34QW4XjXz7dAju2JJDpmp77auMd2FhRdYuokutF/eWFVgs5BIYMtuPG4HLKnUhdAA==",
   "success": true,
-  "projectFilePath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
+  "projectFilePath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\glori\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\glori\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\glori\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
+    "C:\\Users\\glori\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2401\\xamarin.forms.maps.5.0.0.2401.nupkg.sha512"
   ],
   "logs": []
 }

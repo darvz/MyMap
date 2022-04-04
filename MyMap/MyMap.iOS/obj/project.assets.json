@@ -11,7 +11,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -28,7 +28,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -151,12 +151,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MyMap/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Forms.Maps": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/MyMap.dll": {}
@@ -176,7 +191,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -193,7 +208,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -316,12 +331,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MyMap/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Forms.Maps": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/MyMap.dll": {}
@@ -341,7 +371,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -358,7 +388,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -481,12 +511,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MyMap/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Forms.Maps": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/MyMap.dll": {}
@@ -506,7 +551,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -523,7 +568,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -646,12 +691,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MyMap/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Forms.Maps": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/MyMap.dll": {}
@@ -710,10 +770,10 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.6.1": {
-      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
+    "Xamarin.Essentials/1.7.1": {
+      "sha512": "u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.1",
+      "path": "xamarin.essentials/1.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -722,15 +782,6 @@
         "lib/monoandroid10.0/Xamarin.Essentials.dll",
         "lib/monoandroid10.0/Xamarin.Essentials.pdb",
         "lib/monoandroid10.0/Xamarin.Essentials.xml",
-        "lib/monoandroid80/Xamarin.Essentials.dll",
-        "lib/monoandroid80/Xamarin.Essentials.pdb",
-        "lib/monoandroid80/Xamarin.Essentials.xml",
-        "lib/monoandroid81/Xamarin.Essentials.dll",
-        "lib/monoandroid81/Xamarin.Essentials.pdb",
-        "lib/monoandroid81/Xamarin.Essentials.xml",
-        "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.pdb",
-        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -757,14 +808,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.1.nupkg.sha512",
+        "xamarin.essentials.1.7.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2012": {
-      "sha512": "Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
+    "Xamarin.Forms/5.0.0.2401": {
+      "sha512": "fk/V8QWjeyo8UXcsqsNRMd6o1H5PBfyXYm97nxvhMsJIdeqDgfRWyIsSurM8uLGLQGdQP23R+hHj7vcTSo2UjQ==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2012",
+      "path": "xamarin.forms/5.0.0.2401",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -973,8 +1024,42 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2012.nupkg.sha512",
+        "xamarin.forms.5.0.0.2401.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Maps/5.0.0.2401": {
+      "sha512": "mUrT0HmB7mZpjsjfUD9dpsdM9QnbECCxzYxaFWNMrtHDT8YtGQA55TJvoAziyRbFrzcv5a+7SovkH3r6brC1zQ==",
+      "type": "package",
+      "path": "xamarin.forms.maps/5.0.0.2401",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.5.0.0.2401.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
       ]
     },
     "MyMap/1.0.0": {
@@ -986,8 +1071,9 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "MyMap >= 1.0.0",
-      "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Forms >= 5.0.0.2012"
+      "Xamarin.Essentials >= 1.7.1",
+      "Xamarin.Forms >= 5.0.0.2401",
+      "Xamarin.Forms.Maps >= 5.0.0.2401"
     ]
   },
   "packageFolders": {
@@ -998,11 +1084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
       "projectName": "MyMap.iOS",
-      "projectPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
+      "projectPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
       "packagesPath": "C:\\Users\\glori\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\obj\\",
+      "outputPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1025,8 +1111,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj": {
-              "projectPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj"
+            "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj": {
+              "projectPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj"
             }
           }
         }
@@ -1037,11 +1123,15 @@
         "dependencies": {
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.1, )"
+            "version": "[1.7.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2012, )"
+            "version": "[5.0.0.2401, )"
+          },
+          "Xamarin.Forms.Maps": {
+            "target": "Package",
+            "version": "[5.0.0.2401, )"
           }
         }
       }

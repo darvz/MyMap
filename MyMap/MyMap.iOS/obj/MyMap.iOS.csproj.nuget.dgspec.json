@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj": {}
+    "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj": {
+    "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
         "projectName": "MyMap.iOS",
-        "projectPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
+        "projectPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\MyMap.iOS.csproj",
         "packagesPath": "C:\\Users\\glori\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap.iOS\\obj\\",
+        "outputPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj": {
-                "projectPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj"
+              "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj": {
+                "projectPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj"
               }
             }
           }
@@ -46,11 +46,15 @@
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2401, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2401, )"
             }
           }
         }
@@ -67,14 +71,14 @@
         }
       }
     },
-    "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj": {
+    "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj",
+        "projectUniqueName": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj",
         "projectName": "MyMap",
-        "projectPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\MyMap.csproj",
+        "projectPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\MyMap.csproj",
         "packagesPath": "C:\\Users\\glori\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\MyMap\\MyMap\\MyMap\\MyMap\\obj\\",
+        "outputPath": "C:\\Users\\glori\\Source\\Repos\\MyMap\\MyMap\\MyMap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -117,11 +121,15 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2401, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2401, )"
             }
           },
           "imports": [
